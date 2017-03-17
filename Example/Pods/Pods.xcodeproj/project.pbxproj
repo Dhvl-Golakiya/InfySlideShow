@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CF463D1EF392EC9C608806AB11D6943 /* Pods-InfySlideShow_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA05B75F00E0F1978096A50B9FA5510 /* Pods-InfySlideShow_Tests-dummy.m */; };
+		248BFE66D73C47CC8DF85077EFEAF6C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5A966D744E719226208D94F92FE0492D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		65BDDB095521459940964941FBF8ACC7 /* InfySlideShow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BD070AA6A19BE88A9C6EA7472B54AD /* InfySlideShow-dummy.m */; };
+		69ADFFF80A369C35A921F372869E69EB /* Pods-InfySlideShow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DABEDFD9A8315D820BDDBAA62C05E974 /* Pods-InfySlideShow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E9CA18402269D1736C9C05C2250F336 /* InfySlideShow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A1D8726A0CF6E1D986B364C020EAF03 /* InfySlideShow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9598D377F61C9C48B661D6F893F67A04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A380002BCF2C196115F396EAD01670BE /* Pods-InfySlideShow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E153F2B68F9268A495DE078B9ED89995 /* Pods-InfySlideShow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3352446BF4E0E20748751AC8D8D9DC4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898F161D2576BE5A66830CF91D56B21D /* ReplaceMe.swift */; };
+		C6C337CE3A1510A28215D621CE6DAFC6 /* Pods-InfySlideShow_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D96A88F9F6876279D05B9B0B5B2F2E6 /* Pods-InfySlideShow_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8B64C5F800F070E3CFCE764BCE1A0AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 948986F30B7F1CF27028EB28F7E69AB2;
+			remoteInfo = InfySlideShow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F3258A99ECE1D176CCF98B8D47A827 /* InfySlideShow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InfySlideShow.xcconfig; sourceTree = "<group>"; };
+		10D0DB735032E3B24CA6498CE27EC676 /* Pods-InfySlideShow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InfySlideShow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C7E498423D7537FF9947F5DC2F858BF /* Pods-InfySlideShow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfySlideShow_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1D96A88F9F6876279D05B9B0B5B2F2E6 /* Pods-InfySlideShow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InfySlideShow_Example-dummy.m"; sourceTree = "<group>"; };
+		1DBF6EE4B5A87C5E8F504B5FE5B8B3F5 /* Pods-InfySlideShow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-InfySlideShow_Tests.modulemap"; sourceTree = "<group>"; };
+		3607C9D5F147A49E8965D616C068DC0E /* Pods-InfySlideShow_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfySlideShow_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		39BD070AA6A19BE88A9C6EA7472B54AD /* InfySlideShow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InfySlideShow-dummy.m"; sourceTree = "<group>"; };
+		3BA05B75F00E0F1978096A50B9FA5510 /* Pods-InfySlideShow_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InfySlideShow_Tests-dummy.m"; sourceTree = "<group>"; };
+		4EBF5EBCF2AAFEE2C0C51CD41AD0B6D1 /* Pods-InfySlideShow_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfySlideShow_Example-resources.sh"; sourceTree = "<group>"; };
+		649981DBEAB552EC8B0F557374631236 /* InfySlideShow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = InfySlideShow.modulemap; sourceTree = "<group>"; };
+		6520950372D97DBB28DFE0657B6E0E69 /* Pods_InfySlideShow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InfySlideShow_Tests.framework; path = "Pods-InfySlideShow_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6855050673184A847B1F4BA8C4AEF978 /* InfySlideShow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InfySlideShow-prefix.pch"; sourceTree = "<group>"; };
+		6A1D8726A0CF6E1D986B364C020EAF03 /* InfySlideShow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InfySlideShow-umbrella.h"; sourceTree = "<group>"; };
+		7E5E7525D457062F123CB00BABD9DB95 /* Pods-InfySlideShow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfySlideShow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		898F161D2576BE5A66830CF91D56B21D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		8B056C10B35D1C2135D5D5FDDF1E6AD3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1C2B6688B8B3B49D3DD4D36EF463E6 /* Pods_InfySlideShow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InfySlideShow_Example.framework; path = "Pods-InfySlideShow_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9206A95C283E9B80A9267971A1FD9786 /* Pods-InfySlideShow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InfySlideShow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A024DFC53F53F159D182EBBE9580502E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83A134491A331096C096B814E67CD08 /* Pods-InfySlideShow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfySlideShow_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D304EF3D55EBEEF80E88DFBAA1754E7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABEDFD9A8315D820BDDBAA62C05E974 /* Pods-InfySlideShow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InfySlideShow_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DEA52C48F25F226410CDAAA77D1717BB /* Pods-InfySlideShow_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfySlideShow_Tests-resources.sh"; sourceTree = "<group>"; };
+		DEDCA9DCFE4E5CEE35580CA69E0FE2C7 /* InfySlideShow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = InfySlideShow.framework; path = InfySlideShow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E153F2B68F9268A495DE078B9ED89995 /* Pods-InfySlideShow_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InfySlideShow_Example-umbrella.h"; sourceTree = "<group>"; };
+		E5B168470F1EC91FAB9FDB7E89BF8332 /* Pods-InfySlideShow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfySlideShow_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E5E8C38D476656E5945B506E9259066A /* Pods-InfySlideShow_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InfySlideShow_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5655E2025DF8E7250583270685DFCA2 /* Pods-InfySlideShow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-InfySlideShow_Example.modulemap"; sourceTree = "<group>"; };
+		F638B77AF1E052312F80AE44689D3DD0 /* Pods-InfySlideShow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InfySlideShow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F870CAAA8307D282AEB234C078561549 /* Pods-InfySlideShow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfySlideShow_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A481CF557B77A9145FF8DBBC90142286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248BFE66D73C47CC8DF85077EFEAF6C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5406B337184F6862FDF480927E32E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A966D744E719226208D94F92FE0492D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEC00330D06BD44D1A0F82A2DA0A7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9598D377F61C9C48B661D6F893F67A04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1D644C745EC470D5113364267853FC /* Pods-InfySlideShow_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8B056C10B35D1C2135D5D5FDDF1E6AD3 /* Info.plist */,
+				F5655E2025DF8E7250583270685DFCA2 /* Pods-InfySlideShow_Example.modulemap */,
+				9206A95C283E9B80A9267971A1FD9786 /* Pods-InfySlideShow_Example-acknowledgements.markdown */,
+				10D0DB735032E3B24CA6498CE27EC676 /* Pods-InfySlideShow_Example-acknowledgements.plist */,
+				1D96A88F9F6876279D05B9B0B5B2F2E6 /* Pods-InfySlideShow_Example-dummy.m */,
+				1C7E498423D7537FF9947F5DC2F858BF /* Pods-InfySlideShow_Example-frameworks.sh */,
+				4EBF5EBCF2AAFEE2C0C51CD41AD0B6D1 /* Pods-InfySlideShow_Example-resources.sh */,
+				E153F2B68F9268A495DE078B9ED89995 /* Pods-InfySlideShow_Example-umbrella.h */,
+				C83A134491A331096C096B814E67CD08 /* Pods-InfySlideShow_Example.debug.xcconfig */,
+				F870CAAA8307D282AEB234C078561549 /* Pods-InfySlideShow_Example.release.xcconfig */,
+			);
+			name = "Pods-InfySlideShow_Example";
+			path = "Target Support Files/Pods-InfySlideShow_Example";
+			sourceTree = "<group>";
+		};
+		280A7D46E0F803F6D8FFAFCDCE77652E /* InfySlideShow */ = {
+			isa = PBXGroup;
+			children = (
+				93DDA9EE2AE4DD1B4D428862026EFF3A /* InfySlideShow */,
+				CCFF9C03849465D6AF9FF0B93ACD86D2 /* Support Files */,
+			);
+			name = InfySlideShow;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E47EAB5F1C89C6A5F447AE31F527216 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				898F161D2576BE5A66830CF91D56B21D /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		61E1AFD6DE309B5786CE35EC47386EF5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A1D644C745EC470D5113364267853FC /* Pods-InfySlideShow_Example */,
+				FD547B8A7592D8A0A8CEDA72E864669A /* Pods-InfySlideShow_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BDCD94C94B7C1C4BFE34C3391CFD1BFB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CC34C07EE1A5EF148C2027364CC9764D /* Products */,
+				61E1AFD6DE309B5786CE35EC47386EF5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93DDA9EE2AE4DD1B4D428862026EFF3A /* InfySlideShow */ = {
+			isa = PBXGroup;
+			children = (
+				5E47EAB5F1C89C6A5F447AE31F527216 /* Classes */,
+			);
+			name = InfySlideShow;
+			path = InfySlideShow;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDCD94C94B7C1C4BFE34C3391CFD1BFB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				280A7D46E0F803F6D8FFAFCDCE77652E /* InfySlideShow */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CC34C07EE1A5EF148C2027364CC9764D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEDCA9DCFE4E5CEE35580CA69E0FE2C7 /* InfySlideShow.framework */,
+				8D1C2B6688B8B3B49D3DD4D36EF463E6 /* Pods_InfySlideShow_Example.framework */,
+				6520950372D97DBB28DFE0657B6E0E69 /* Pods_InfySlideShow_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCFF9C03849465D6AF9FF0B93ACD86D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D304EF3D55EBEEF80E88DFBAA1754E7D /* Info.plist */,
+				649981DBEAB552EC8B0F557374631236 /* InfySlideShow.modulemap */,
+				09F3258A99ECE1D176CCF98B8D47A827 /* InfySlideShow.xcconfig */,
+				39BD070AA6A19BE88A9C6EA7472B54AD /* InfySlideShow-dummy.m */,
+				6855050673184A847B1F4BA8C4AEF978 /* InfySlideShow-prefix.pch */,
+				6A1D8726A0CF6E1D986B364C020EAF03 /* InfySlideShow-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/InfySlideShow";
+			sourceTree = "<group>";
+		};
+		FD547B8A7592D8A0A8CEDA72E864669A /* Pods-InfySlideShow_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A024DFC53F53F159D182EBBE9580502E /* Info.plist */,
+				1DBF6EE4B5A87C5E8F504B5FE5B8B3F5 /* Pods-InfySlideShow_Tests.modulemap */,
+				F638B77AF1E052312F80AE44689D3DD0 /* Pods-InfySlideShow_Tests-acknowledgements.markdown */,
+				E5E8C38D476656E5945B506E9259066A /* Pods-InfySlideShow_Tests-acknowledgements.plist */,
+				3BA05B75F00E0F1978096A50B9FA5510 /* Pods-InfySlideShow_Tests-dummy.m */,
+				3607C9D5F147A49E8965D616C068DC0E /* Pods-InfySlideShow_Tests-frameworks.sh */,
+				DEA52C48F25F226410CDAAA77D1717BB /* Pods-InfySlideShow_Tests-resources.sh */,
+				DABEDFD9A8315D820BDDBAA62C05E974 /* Pods-InfySlideShow_Tests-umbrella.h */,
+				7E5E7525D457062F123CB00BABD9DB95 /* Pods-InfySlideShow_Tests.debug.xcconfig */,
+				E5B168470F1EC91FAB9FDB7E89BF8332 /* Pods-InfySlideShow_Tests.release.xcconfig */,
+			);
+			name = "Pods-InfySlideShow_Tests";
+			path = "Target Support Files/Pods-InfySlideShow_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		323C68FCC028B0190A0408CF4D482860 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69ADFFF80A369C35A921F372869E69EB /* Pods-InfySlideShow_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86C2F80CBCB701D3ED30A79C0A3E075 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9CA18402269D1736C9C05C2250F336 /* InfySlideShow-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC39E52A6848E488B1EC0F4A8A34673 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A380002BCF2C196115F396EAD01670BE /* Pods-InfySlideShow_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		185D84152416FB04BE2E06ECB1922604 /* Pods-InfySlideShow_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 442B9C663EE8FCDE8FB203559EC61FCB /* Build configuration list for PBXNativeTarget "Pods-InfySlideShow_Example" */;
+			buildPhases = (
+				21F010442237DEABB27217420E1CF310 /* Sources */,
+				EFEC00330D06BD44D1A0F82A2DA0A7C6 /* Frameworks */,
+				BBC39E52A6848E488B1EC0F4A8A34673 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AAF6FB1BFD685E17B143BCC8A42ECCD /* PBXTargetDependency */,
+			);
+			name = "Pods-InfySlideShow_Example";
+			productName = "Pods-InfySlideShow_Example";
+			productReference = 8D1C2B6688B8B3B49D3DD4D36EF463E6 /* Pods_InfySlideShow_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		18FDF64351FAFF222A7EE01F81A8B67F /* Pods-InfySlideShow_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C399DEBED698676DA162DF23002033 /* Build configuration list for PBXNativeTarget "Pods-InfySlideShow_Tests" */;
+			buildPhases = (
+				2DF9E248B601A7408478965B1CE93C2D /* Sources */,
+				A481CF557B77A9145FF8DBBC90142286 /* Frameworks */,
+				323C68FCC028B0190A0408CF4D482860 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-InfySlideShow_Tests";
+			productName = "Pods-InfySlideShow_Tests";
+			productReference = 6520950372D97DBB28DFE0657B6E0E69 /* Pods_InfySlideShow_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		948986F30B7F1CF27028EB28F7E69AB2 /* InfySlideShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F553E407C193A344CED06E153932FA81 /* Build configuration list for PBXNativeTarget "InfySlideShow" */;
+			buildPhases = (
+				E65412F09FF93D62E0F2515A01636BF5 /* Sources */,
+				E5406B337184F6862FDF480927E32E3E /* Frameworks */,
+				A86C2F80CBCB701D3ED30A79C0A3E075 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfySlideShow;
+			productName = InfySlideShow;
+			productReference = DEDCA9DCFE4E5CEE35580CA69E0FE2C7 /* InfySlideShow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CC34C07EE1A5EF148C2027364CC9764D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				948986F30B7F1CF27028EB28F7E69AB2 /* InfySlideShow */,
+				185D84152416FB04BE2E06ECB1922604 /* Pods-InfySlideShow_Example */,
+				18FDF64351FAFF222A7EE01F81A8B67F /* Pods-InfySlideShow_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21F010442237DEABB27217420E1CF310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C337CE3A1510A28215D621CE6DAFC6 /* Pods-InfySlideShow_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF9E248B601A7408478965B1CE93C2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF463D1EF392EC9C608806AB11D6943 /* Pods-InfySlideShow_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65412F09FF93D62E0F2515A01636BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BDDB095521459940964941FBF8ACC7 /* InfySlideShow-dummy.m in Sources */,
+				B3352446BF4E0E20748751AC8D8D9DC4 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AAF6FB1BFD685E17B143BCC8A42ECCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InfySlideShow;
+			target = 948986F30B7F1CF27028EB28F7E69AB2 /* InfySlideShow */;
+			targetProxy = E8B64C5F800F070E3CFCE764BCE1A0AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		181C529A8DAD9F7D3B5805C6FD96B043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C83A134491A331096C096B814E67CD08 /* Pods-InfySlideShow_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InfySlideShow_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InfySlideShow_Example/Pods-InfySlideShow_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InfySlideShow_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56376478238381B6D24A353F7B9B0480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F870CAAA8307D282AEB234C078561549 /* Pods-InfySlideShow_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InfySlideShow_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InfySlideShow_Example/Pods-InfySlideShow_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InfySlideShow_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DB9045DD9F404C4FFA7161C7481F564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E5E7525D457062F123CB00BABD9DB95 /* Pods-InfySlideShow_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InfySlideShow_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InfySlideShow_Tests/Pods-InfySlideShow_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InfySlideShow_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AB25E1464E8C9F594293F654B97E0C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B168470F1EC91FAB9FDB7E89BF8332 /* Pods-InfySlideShow_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InfySlideShow_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InfySlideShow_Tests/Pods-InfySlideShow_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InfySlideShow_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0E3B8BF59EDC6B56F7FF46E552DEF75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F3258A99ECE1D176CCF98B8D47A827 /* InfySlideShow.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/InfySlideShow/InfySlideShow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InfySlideShow/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InfySlideShow/InfySlideShow.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = InfySlideShow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5AD3766C634A3608B79E1CBBED3666F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F3258A99ECE1D176CCF98B8D47A827 /* InfySlideShow.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/InfySlideShow/InfySlideShow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InfySlideShow/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InfySlideShow/InfySlideShow.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = InfySlideShow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		442B9C663EE8FCDE8FB203559EC61FCB /* Build configuration list for PBXNativeTarget "Pods-InfySlideShow_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181C529A8DAD9F7D3B5805C6FD96B043 /* Debug */,
+				56376478238381B6D24A353F7B9B0480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C399DEBED698676DA162DF23002033 /* Build configuration list for PBXNativeTarget "Pods-InfySlideShow_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB9045DD9F404C4FFA7161C7481F564 /* Debug */,
+				AB25E1464E8C9F594293F654B97E0C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F553E407C193A344CED06E153932FA81 /* Build configuration list for PBXNativeTarget "InfySlideShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E3B8BF59EDC6B56F7FF46E552DEF75 /* Debug */,
+				C5AD3766C634A3608B79E1CBBED3666F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

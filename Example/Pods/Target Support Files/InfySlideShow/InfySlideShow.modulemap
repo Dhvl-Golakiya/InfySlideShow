@@ -1,0 +1,6 @@
+framework module InfySlideShow {
+  umbrella header "InfySlideShow-umbrella.h"
+
+  export *
+  module * { export * }
+}
