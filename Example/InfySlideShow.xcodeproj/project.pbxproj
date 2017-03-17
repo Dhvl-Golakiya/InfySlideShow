@@ -15,6 +15,12 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7CC5C2905E4D92B413E78675 /* Pods_InfySlideShow_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEE1BC7D479E3F77E50B61C /* Pods_InfySlideShow_Example.framework */; };
+		96E534F11E7BFD5C00C17279 /* scrollViewUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E534EF1E7BFD5C00C17279 /* scrollViewUIView.swift */; };
+		96E534F21E7BFD5C00C17279 /* scrollViewUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E534F01E7BFD5C00C17279 /* scrollViewUIView.xib */; };
+		96E534F51E7BFD6300C17279 /* SliderNativeExpressAdsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E534F31E7BFD6300C17279 /* SliderNativeExpressAdsUIView.swift */; };
+		96E534F61E7BFD6300C17279 /* SliderNativeExpressAdsUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E534F41E7BFD6300C17279 /* SliderNativeExpressAdsUIView.xib */; };
+		96E534F91E7BFD6A00C17279 /* SlideShowUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E534F71E7BFD6A00C17279 /* SlideShowUiView.swift */; };
+		96E534FA1E7BFD6A00C17279 /* SlideShowUiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E534F81E7BFD6A00C17279 /* SlideShowUiView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2AF97895B76180079A19AC04 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2AF97895B76180079A19AC04 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* InfySlideShow_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfySlideShow_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,12 +46,18 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6350B780EB15F7CE8D4CA824 /* Pods-InfySlideShow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfySlideShow_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfySlideShow_Tests/Pods-InfySlideShow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		63C33523C53C15D7DA03698A /* InfySlideShow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = InfySlideShow.podspec; path = ../InfySlideShow.podspec; sourceTree = "<group>"; };
+		63C33523C53C15D7DA03698A /* InfySlideShow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = InfySlideShow.podspec; path = ../InfySlideShow.podspec; sourceTree = "<group>"; };
 		86B610090612B68002F8EBAA /* Pods-InfySlideShow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfySlideShow_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfySlideShow_Tests/Pods-InfySlideShow_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		96E534EF1E7BFD5C00C17279 /* scrollViewUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrollViewUIView.swift; sourceTree = "<group>"; };
+		96E534F01E7BFD5C00C17279 /* scrollViewUIView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = scrollViewUIView.xib; sourceTree = "<group>"; };
+		96E534F31E7BFD6300C17279 /* SliderNativeExpressAdsUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderNativeExpressAdsUIView.swift; sourceTree = "<group>"; };
+		96E534F41E7BFD6300C17279 /* SliderNativeExpressAdsUIView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderNativeExpressAdsUIView.xib; sourceTree = "<group>"; };
+		96E534F71E7BFD6A00C17279 /* SlideShowUiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideShowUiView.swift; sourceTree = "<group>"; };
+		96E534F81E7BFD6A00C17279 /* SlideShowUiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideShowUiView.xib; sourceTree = "<group>"; };
 		996695472FC80615138E9FDF /* Pods_InfySlideShow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfySlideShow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E55EED66B91D0E8BA3FE30A /* Pods-InfySlideShow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfySlideShow_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfySlideShow_Example/Pods-InfySlideShow_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B87C8AB8B9DCE106B54AE7D5 /* Pods-InfySlideShow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfySlideShow_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfySlideShow_Example/Pods-InfySlideShow_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C42E23F1D8C966CFB00970D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C42E23F1D8C966CFB00970D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FFEE1BC7D479E3F77E50B61C /* Pods_InfySlideShow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfySlideShow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -106,6 +118,12 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				96E534EF1E7BFD5C00C17279 /* scrollViewUIView.swift */,
+				96E534F01E7BFD5C00C17279 /* scrollViewUIView.xib */,
+				96E534F31E7BFD6300C17279 /* SliderNativeExpressAdsUIView.swift */,
+				96E534F41E7BFD6300C17279 /* SliderNativeExpressAdsUIView.xib */,
+				96E534F71E7BFD6A00C17279 /* SlideShowUiView.swift */,
+				96E534F81E7BFD6A00C17279 /* SlideShowUiView.xib */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -248,6 +266,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E534F61E7BFD6300C17279 /* SliderNativeExpressAdsUIView.xib in Resources */,
+				96E534FA1E7BFD6A00C17279 /* SlideShowUiView.xib in Resources */,
+				96E534F21E7BFD5C00C17279 /* scrollViewUIView.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -362,7 +383,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				96E534F11E7BFD5C00C17279 /* scrollViewUIView.swift in Sources */,
+				96E534F51E7BFD6300C17279 /* SliderNativeExpressAdsUIView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				96E534F91E7BFD6A00C17279 /* SlideShowUiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
