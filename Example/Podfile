@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'InfySlideShow_Example' do
+  pod 'InfySlideShow', :path => '../'
+
+  target 'InfySlideShow_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
